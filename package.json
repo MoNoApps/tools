@@ -1,0 +1,18 @@
+{
+  "name": "@monopack/tools",
+  "version": "1.0.0",
+  "description": "General Tools",
+  "main": "app.js",
+  "scripts": {
+    "test": "ENV=test nyc mocha"
+  },
+  "keywords": [],
+  "author": "Daniel Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "nyc": "^13.0.1"
+  }
+}
